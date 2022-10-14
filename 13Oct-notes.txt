@@ -1,0 +1,77 @@
+shrilatat  - wp
+
+HTML - Hypertext Markup Language
+
+<tag></tag>   starttag - endtag
+<b></b>
+<u></u>
+<i>
+<body></body>
+<BODY></Body>
+<html>
+<head>
+<br> line break
+<p> paragraph
+<hr> - horizontal ruler
+PPT + <em>, <mark>
+
+
+Attributes: mandatory, optional
+<tag  attrib1=value1  attrib2=value2>
+
+
+Header tags:
+<hn>  - 1-6
+<h1>, <h2>, <h3>...<h6>
+
+
+Layout tags:
+<hn>
+<ul> - Unordered List (bullets)
+<li> - List Item
+<ol type="A/a/I/i"> - Ordered List
+
+<table>
+<td> - table data
+<th> - table header
+<tr> - table row
+colspan -
+rowspan 
+
+<hr color="red" size="5">
+
+<img src="url">
+
+<form>
+  <!--   form elements  -->
+</form>
+
+9 + 3 :
+<input type=?>
+
+Text-based:
+- text
+- password
+- hidden
+
+button-based:
+- button
+- submit
+- reset
+
+Misc:
+- radio
+- checkbox
+- file
+
+-Textarea   <textarea>
+- <select><option>
+
+
+
+
+
+
+
+
+
