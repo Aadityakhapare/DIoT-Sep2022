@@ -1,0 +1,87 @@
+<button>click here </button>
+
+<input type="button"> - regular button
+<input type="submit"> - submits form
+<input type="reset"> - resets all form elements
+
+<form  method="post"   action="url-to-serverside-component">
+
+
+</form>
+
+HTTP methods: w3cg
+- get
+- post
+
+- put
+- delete
+- head
+- trace
+- options
+
+
+file:///D:/DIot-Sep2022/HTML/login.html
+file:///D:/DIot-Sep2022/HTML/login.html?username=shrilata&password=secret
+
+<input type="text"
+      name="username"
+                          maxlength="10"
+                          readonly
+                          disabled
+                          value="unknown">
+
+HTML5:
+Form attributes ( 16 new)
+- required
+- autofocus
+- placeholder
+- pattern
+- max
+- min
+
+
+<input type="text" 
+       name="username" 
+       required
+       autofocus
+       placeholder="Enter user name"><br>
+
+
+13 new Form elements: <input type=?>
+- email
+- number
+- range
+- color
+- tel
+- search
+- date
+
+Container tags:
+
+
+<audio>
+<video>
+
+
+http://localhost:8082/MVCWebApp/login.html
+
+
+Cascading Style sheets:
+
+
+MIME:
+text/plain
+text/html
+text/css
+audio/wav
+image/gif
+image/jpg
+
+
+colors:
+- literal (red, lightgreen)
+- hex (#FF00443)
+- rgb values
+
+
+
