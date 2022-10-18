@@ -1,0 +1,125 @@
+Selectors:
+- tag  h1{...}, p{...}
+- class  .class-name{...}
+- id   #id{...}
+
+Box Model
+- border property
+
+inline versus block elements
+
+Block : div, Hn, p, section, article, 
+inline : all form elements, span 
+
+Javascript:
+
+Typeless language, loosely typed language
+
+Var declaration:
+var i = 10;  //number 5, -3, 10.2
+
+var str = "hello"  //string
+
+var flag = true  //boolen
+
+<script>
+          var i;
+          console.log(i, typeof(i))
+
+          i = 10  //number
+          console.log(i, typeof(i))
+
+          i = "shrilata"
+          console.log(i, typeof(i))
+
+          i = true
+          console.log(i, typeof(i))
+        </script>
+
+
+
+
+scanf()
+input()
+
+parseInt(str)
+eval(expressions) - evil
+
+ <script>
+            /* var no = parseInt(prompt("Enter a number"))
+            var msg = prompt("Enter a String")
+            for(i=1; i<=no; i++)
+               document.write(msg + "<br>")
+
+
+            var a = 10, b = 12, c = 9
+            if(a > b && a > c)
+               console.log("a is greatest")
+            else if(b > c)
+               console.log("b is greatest")
+               else 
+                  console.log("c is greatest") */
+            //even nos
+
+            /* var limit = prompt("Enter max no")
+            var i = 0;
+            while(i <= limit){
+              if(i%2 == 0)  
+                 document.write("even no " + i + "<br>")
+                 i++;
+            } */
+            var no = prompt("Enter  no")
+            for(i=1; i <= 10; i++)
+                document.write(no + " * " + i + " = " + (no*i) + "<br>")
+
+
+
+
+            /* for(i=0; i<10; i++)
+            document.write("value of i : " + i + "<br>") */
+             
+        </script>
+
+Function expr:
+<script>
+           //Function expression
+            function greet(){    //named functions
+                document.write("Hello World")
+            }
+
+            var greet1 = function(){
+                document.write("Hello World")
+            }
+           //greet1()
+
+           function greetUser(username){
+                document.write("Hello " + username)
+            }
+        
+           var greetUser1 = function(username){
+            document.write("Hello " + username)
+           }
+           //greetUser1("Rudrani")
+
+            function add(a,b){
+                return a+b;
+            }
+
+            var add1 = function(a,b){
+                return a+b
+            }
+            add1(1,2)
+        </script>
+
+Functions:
+- user defined functions
+- pre-defined function
+ parseInt(), parseFloat(), isNaN(), isFinite(), eval()
+
+scope of vars:
+- Global
+- Local
+
+
+
+

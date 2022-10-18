@@ -1,0 +1,115 @@
+JS?
+- client side validation
+- Event handling
+- DOM maniplation
+
+JS :
+- JS programming basics
+- DOM
+
+Objects:
+- pre-defined Objects
+- user-def objects
+
+JS Object?
+- All JS objs expose properties and methods
+- ALL properties are read/write
+
+pre-defined Objects:
+string, math, date, array, boolean, number, regexp, 
+
+string obj:
+- properties : length, prototype
+- methods : indexOf()
+
+s1.property
+s1.method()
+
+
+<script>
+           var arr = []
+           for(i=0; i < 5; i++)
+              arr[i] = prompt("Enter a name")
+
+           console.log(arr)
+           console.log(arr.sort())
+
+           //Ass
+            var nums = [11,22,33,44,55]
+            var sum = 0;
+            for(i=0 ; i< nums.length; i++)
+                sum += nums[i]
+
+            console.log("sum is ", sum, "avg is", sum/nums.length)
+         </script>
+
+substr()
+subString()
+slice()
+
+function f1(array){}
+
+function f1(){
+   return arr
+}
+
+
+user-def objects:
+- Object Initializer
+- Class
+
+
+class Stud{
+   int prn;
+   String name;
+
+}
+s1 = new Stud(123,"Pushkar)
+
+s1.prn -> 123
+s1.name -> Pushkar
+obj.prop
+
+
+//Object Initializer
+           
+            var stud = {prn:123, name:"Pushkar"}
+            console.log(stud.prn, stud.name)  //READ val of prop
+
+            stud.name="Bhushan"
+            console.log(stud.prn, stud.name) 
+
+ //JavaScript Object Notation  - JSON
+            var person = {
+                pname:"Ritika",   //string
+                age : 22,     //number
+                vaccinated: true,   //boolean
+                hobbies : ["Reading", "Coding", "Eating"],  //array!!
+                addr : {city : "Pune", state : "Mah"}
+            }
+
+            console.log(person.pname, person.age, person.vaccinated)
+            console.log(person.hobbies[1])
+            console.log(person.addr.state, person.addr.city )
+
+            person.addr.city = "Indore"
+            person.addr.state = "MP"
+            console.log(person.addr.state, person.addr.city )
+
+
+var book = {
+                bname : "Learning Javascript",
+                author : "Shrilata",
+                price : 450,
+                dispDetails : function(){
+                    console.log(this.bname, this.author, this.price)
+                }
+            }
+
+            book.dispDetails()
+
+
+
+
+
+
