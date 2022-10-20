@@ -1,0 +1,87 @@
+Higher order functions:
+
+window.setInterval(f1, 1000)
+
+document:
+document.write()
+document.getElementById()
+document.getElementsByTagName("h1")  
+document.getElementsByName("coffee")
+document.getElementsByClassName("c1")
+
+
+javascript-obj = JSON.parse(string-json-rep)
+
+JSON.stringify()
+
+---------  .HTML   <script> ---------------------
+
+1) Obtain XHR obj:
+   var xhr = new XMLHttpRequest(); //non-IE browsers
+
+2) Open a connection with server:
+   xhr.open("HTTP-method","URL")
+   eg : xhr.open("GET","http://someserver.com/articles")
+
+3) Send teh request:
+    xhr.send()
+
+4) Fetch info from server into my app:
+   xhr.onreadystatechange = function(){
+       if(xhr.readyState == 4 && xhr.status == 200)
+             //fetch the data
+             var data = xhr.responseText
+   }
+
+
+--------------------------------
+
+1) var geolocation =  navigator.geolocation
+
+2) geolocation.getCurrentLocation(showPosition [, errorHandler]);
+
+function showPosition(position){
+   //code to get coordinates
+   var lat = position.coords.latitude
+   var long = position.coords.longitude
+}
+
+function errorHandler(){
+   //error handling code
+}
+
+------------ lambda/fat arrow----------------------
+
+<script>
+            function greet(){
+                console.log("Hello World")
+            }
+            var greet1 = function(){
+                console.log("Hello World")
+            }
+            //lambda , fat arrow =>
+            var greet2 = () => console.log("Hello World")
+            //greet2()
+
+            function greetUser(uname){
+                console.log("Hello " + uname)
+            }
+           
+            var greetUser1 = function(username){
+                console.log("Hello " + username)
+            }
+
+            var greetUser2 = username => console.log("Hello " + username)
+
+            function add(a,b){
+                return a+b;
+            }
+
+            var add1 = function(a,b){
+                return a+b; 
+            }
+
+            var add2 = (a,b) => a+b
+            
+            console.log(add2(10,20))
+         </script>
