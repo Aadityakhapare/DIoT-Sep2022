@@ -1,0 +1,160 @@
+var i = 10;
+var str = "hello"
+
+let i = 10
+
+const i = 10
+
+
+function  f1(){
+    
+    function f2(){
+
+        function f3(){
+          let i = 100
+        }
+
+    }
+   console.log(i)
+}
+
+
+
+
+ES6 - block scoped var
+
+<script>
+           let sname = "Saurav"
+           let age = 22
+
+           //var str = "welcome " + sname + "  your age is " + age
+
+           var str = `welcome  ${sname} your age is  ${age}`
+           
+           console.log(str)
+         </script>
+
+-------------------------------------
+
+callback functions:  we can make async calls
+window.setTimeout(f1, 5000)
+window.setInterval(f1, 5000)
+geolocation.getCurrentPosition(showPosition)
+
+
+<script   src = "ext.js">
+
+
+<input type="button" id="b1" value="Click me" >
+
+document.getElementById("b1").click = f1
+
+-----------  prototype -------------
+
+<script>
+           var person = {age:22, sname:"Diksha"}
+           person.email = "diksha@gmail.com"
+
+           console.log(person.sname, person.email)
+
+           function makeItHot() {
+              return "<FONT COLOR='red'>" + this.toString() + "</FONT>"
+           }
+
+           String.prototype.hot = makeItHot
+
+           var str = "Hello World"
+           document.write(str)
+           document.write(str.hot())
+
+
+         </script>
+
+--------------  web storage --------------
+
+ <script>
+            localStorage.clear()
+            sessionStorage.setItem("studname", "Shweta")
+            localStorage.setItem("module", "Web programming")
+            localStorage.setItem("duration", "56")
+
+            console.log(localStorage.getItem("module"))
+
+         </script>
+
+if i dont login via google i dont get cookies
+
+
+CDN - Content Delivery Network
+
+
+CSS selectors:- beautify a docu, change style of a doc!!
+- tag    h1{...}, p{...}, body{...}
+- class  .c1{.....}
+- id    #id1{....}
+
+
+jquery selectors:- change beahvior of a doc!!
+- tag    
+- class  
+- id 
+
+
+$("p")  -- > document.getElementsByTagName("p")  selects all paras ina  doc
+$("h1") - selects all <h1> in doc
+$("div") - selects all <div> in doc
+$("div, p") - selects all <div>, <p> in doc
+$("div p") - selects all <p> within a <div> in doc
+
+
+$("#id1")  - select that element whose id is id1
+$("#id1, #id2, #id3")  - select that element whose id is id1, id2, id3
+
+$(".box")  -- select all elements which have class "box" applied
+
+$(".c1, .c2")  -- select all elements which have class "c1" and c2 applied
+
+
+
+jQuery("p")  eqvi to $("p")
+
+
+show/hide
+slideUp/slideDown
+fadeIn/fadeOut/fadeTo
+
+
+$("input")  selects all elements with <input> tag
+$(":input")  selects all elements with <input>, <textarea>, <select>,<button> tag
+
+$("input[type="radio"]")
+$(":radio")  -- select all radio 
+-----------------------
+$(document).ready(function(){
+           var paras = $("p")
+           paras.each(function(){
+              console.log($(this).html())  //display all para contents
+           })
+        })
+------------------------
+
+$(document).ready(function(){
+           var paras = $("p")
+           paras.each(function(index){
+              console.log($(this).html(), index)  //display all para contents
+           })
+        })
+---------------------------------
+$(document).ready(function(){
+           var paras = $("p")
+           paras.each(function(index, element){
+              console.log($(element).html(), index)  //display all para contents
+           })
+        })
+
+
+$("p:first")   = $("p:eq(0)")
+$("p:last")
+
+
+
