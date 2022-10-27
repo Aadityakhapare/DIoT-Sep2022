@@ -1,0 +1,56 @@
+$("#p1").click(function(){....})
+$("#p1").dblclick(function(){....})
+$("#p1").mouseover(function(){....})
+
+
+$("#p1").on(event, function);
+$("#p1").on("click", function(){...});
+$("#p1").on("keyup", function(){...});
+$("#p1").on("mouseover mouseout mouseup", function(){...});
+
+
+$("#p1").addClass(c1 c2 c3)
+$("#p1").removeClass()
+
+$("#p1").append()
+$("#p1").prepend()
+
+Module can export?
+- variables
+- functions
+- JSON
+- class
+
+exports.var = something
+
+module.exports 
+
+
+
+
+
+
+
+
+
+
+
+
+
+npm - Node Package Manager
+
+prompt> npm install -g angular@cli
+
+prompt> npm install expressjs
+
+
+
+
+
+
+
+
+
+
+
+
