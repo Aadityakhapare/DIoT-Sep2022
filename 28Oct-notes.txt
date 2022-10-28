@@ -1,0 +1,103 @@
+jquery:
+$("#p1").on("click", function(){...})
+
+Node:
+fs.readFile("filename", function(err, data){..})
+
+
+main(){
+  .....
+  f();
+
+
+}
+
+
+
+fs.readFile()
+fs.readFileSync()
+
+fs.writeFile()
+fs.writeFileSync()
+
+-----------------------------
+
+Web service - A service available over the web
+application-centric
+
+Web app - An application available over the web
+Human-centric
+
+Web service:
+- SOAP-based WS - stds - WSDL, SOAP, UDDI, ws-Security, heavy weight services
+- RESTful WS, HTTP, light weight services
+
+------------------------------------
+Resources:
+
+1) URL: eg http://www.myserver.com/welcome.html
+
+static URLs:
+http://localhost:3000/javabooks.html
+http://www.myserver.com/welcome.html
+http://www.myserver.com/images/sun.jpg
+http://www.myserver.com/documents/adhaar.pdf
+
+
+dynamic URL:
+http://www.techarticles.com/articles/getArticle?aid=12000
+http://www.techarticles.com/articles/deleteArticle?aid=12345
+http://www.techarticles.com/articles/updateArticle?aid=12000
+http://www.techarticles.com/articles/createArticle
+
+http://www.techarticles.com/articles/getArticle?aid=12345
+http://www.techarticles.com/articles/getArticle/12345
+
+http://www.techarticles.com/articles/articles
+
+
+
+2) 
+
+verb/action-oriented
+
+RESTFUL URLs - noun/resounce-oriented
+http://www.techarticles.com/articles/article?aid=12345
+http://www.techarticles.com/articles/article/12345
+
+3) HTTP methods: w3c stds  - w3cg
+GET   --- Read
+POST  --- Create
+PUT   --- update
+DELETE --- delete
+
+
+CRUD - Create Read  Update  Delete
+
+URL + Http method
+
+http://www.techarticles.com/articles/article?aid=12345  + GET
+http://www.techarticles.com/articles/article?aid=12345  + DELETE
+
+http://www.techarticles.com/articles/article/12345  + GET
+
+
+4) REST - REpresentational State Transfer
+
+
+------  create exprewss app
+
+1) create a blank folder and cd to it
+2) npm init   -> to create package.json
+3) npm install express --save  --> installs 3rd party expressjs locally
+
+Route, Routing
+
+http://localhost:4000/
+http://localhost:4000/home
+http://localhost:4000/admin
+
+http://localhost:1337/userInfo
+
+
+
