@@ -1,0 +1,50 @@
+GET:
+- browser URL : http://someserver.com/welcome.html
+- <form >
+- <a href="localhost:3000/book/books">Show Book details</a>
+
+
+POST:
+- <form method="post">
+
+
+ajax:
+   xhr.open(http-method, url)
+   xhr.open("put","http://someserver.com/welcome.txt")
+
+
+
+For GET req : http://localhost:3000/add?no1=10&no2=20
+req.query.no1
+
+For POST req : 
+req.body.<field-name>
+
+
+http://myecommsite.com/products/sweater
+http://myecommsite.com/products/headset
+http://myecommsite.com/products/hoodie
+http://myecommsite.com/products/mousepad
+
+app.get("/products/:pid", function(){
+   req.params.pid
+})
+
+
+
+http://localhost:3000/
+
+http://localhost:3000/api/courses
+http://localhost:3000/api/courses/1
+
+
+https://drive.google.com/drive/folders/1MeTwNrTjclS-VN26TjssO5Ys5Tfw4xcL?usp=sharing
+
+
+
+
+
+
+
+
+
